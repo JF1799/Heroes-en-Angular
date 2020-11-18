@@ -3,6 +3,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { AboutComponent } from './componentes/about/about.component';
 import { HeroesComponent } from './componentes/heroes/heroes.component';
 import { HeroeComponent } from './componentes/heroe/heroe.component';
+import { BuscadorComponent } from './componentes/buscador/buscador.component';
 
 //CREACION DE LA CONSTANTE PARA LA  RUTA
 const APP_ROUTES: Routes = [
@@ -10,6 +11,7 @@ const APP_ROUTES: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'heroes', component: HeroesComponent },
   { path: 'heroe/:id', component: HeroeComponent },
+  { path: 'buscador/:termino', component: BuscadorComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 

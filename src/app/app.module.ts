@@ -14,6 +14,8 @@ import { HomeComponent } from './componentes/home/home.component';
 import { AboutComponent } from './componentes/about/about.component';
 import { HeroesComponent } from './componentes/heroes/heroes.component';
 import { HeroeComponent } from './componentes/heroe/heroe.component';
+import { BuscadorComponent } from './componentes/buscador/buscador.component';
+import { HeroeTarjetaComponent } from './componentes/heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { HeroeComponent } from './componentes/heroe/heroe.component';
     AboutComponent,
     HeroesComponent,
     HeroeComponent,
+    BuscadorComponent,
+    HeroeTarjetaComponent,
   ],
   imports: [BrowserModule, APP_ROUTING],
   providers: [HeroesService],
